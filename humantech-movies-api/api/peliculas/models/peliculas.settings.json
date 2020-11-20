@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "peliculas",
+  "info": {
+    "name": "peliculas"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "fecha": {
+      "type": "date"
+    },
+    "estado": {
+      "type": "boolean"
+    },
+    "locked": {
+      "type": "boolean"
+    }
+  }
+}

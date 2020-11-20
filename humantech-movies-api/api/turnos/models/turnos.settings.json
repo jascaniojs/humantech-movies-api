@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "turnos",
+  "info": {
+    "name": "turnos"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "hora": {
+      "type": "time"
+    },
+    "estado": {
+      "type": "boolean"
+    },
+    "locked": {
+      "type": "boolean"
+    }
+  }
+}
