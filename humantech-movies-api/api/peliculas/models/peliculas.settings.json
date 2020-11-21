@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "peliculas",
   "info": {
-    "name": "peliculas"
+    "name": "peliculas",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -21,6 +22,9 @@
     },
     "locked": {
       "type": "boolean"
+    },
+    "turnos": {
+      "type": "json"
     }
   }
 }
