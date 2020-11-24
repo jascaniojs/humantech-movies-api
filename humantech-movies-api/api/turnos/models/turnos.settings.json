@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "turnos",
   "info": {
-    "name": "turnos"
+    "name": "turnos",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -18,6 +19,10 @@
     },
     "locked": {
       "type": "boolean"
+    },
+    "pelicula": {
+      "model": "peliculas",
+      "via": "turnos"
     }
   }
 }

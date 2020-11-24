@@ -24,7 +24,8 @@
       "type": "boolean"
     },
     "turnos": {
-      "type": "json"
+      "via": "pelicula",
+      "collection": "turnos"
     }
   }
 }
